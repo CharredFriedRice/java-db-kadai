@@ -26,8 +26,8 @@ public class Employees_Chapter04 {
             String sql = """
                          CREATE TABLE employees (
                            id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-                           email VARCHAR(60) NOT NULL,
-                           name VARCHAR(255) NOT NULL,
+                           name VARCHAR(60) NOT NULL,
+                           email VARCHAR(255) NOT NULL,
                            age INT(11),
                            address VARCHAR(255)
                          );
